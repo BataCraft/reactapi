@@ -37,7 +37,7 @@ function Navbar() {
   return (
     <>
       <nav className="px-4 flex items-center justify-between md:px-20 w-full h-[100px] border-b-2 fixed bg-[#FBFBFB] z-50">
-        <div id="left" className="flex items-center justify-between w-[40%] lg:w-[30%]">
+        <div id="left" className="flex items-center justify-between w-[40%] lg:w-[40%] xl:w[30%]">
           <div id="logo" className="text-[32px]">
             <NavLink to="/">
               <span className="font-bold">Echo</span>
